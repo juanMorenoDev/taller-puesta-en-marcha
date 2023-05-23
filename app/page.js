@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Main() {
 
@@ -27,11 +26,10 @@ export default function Main() {
             </p>
           </div>
           <div className="w-full flex flex-row justify-center">
-            <Image 
+            <img 
               src="/animation.gif"
               alt="education"
-              width={300}
-              height={200}
+              className="w-64"
             />
           </div>
         </div>
